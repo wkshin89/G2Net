@@ -16,8 +16,6 @@ from scipy.signal import get_window
 from sklearn.model_selection import KFold
 from sklearn.metrics import roc_auc_score
 
-from ../kaggle_datasets import KaggleDatasets
-
 MIXUP_PROB = 0.0
 EPOCHS = 20
 R_ANGLE = 0 / 180 * np.pi
